@@ -10,6 +10,7 @@ public class BoardVO {
 	private String writer;
 	private String content;
 	private Date regdate;
+	private Date modifydate;
 	private int cnt;
 
 	public int getSeq() {
@@ -51,6 +52,15 @@ public class BoardVO {
 	public void setRegdate(Date regdate) {
 		this.regdate = regdate;
 	}
+
+	public Date getModifydate() {
+		return modifydate;
+	}
+
+	public void setModifydate(Date modifydate) {
+		this.modifydate = modifydate;
+	}
+
 	public int getCnt() {
 		return cnt;
 	}

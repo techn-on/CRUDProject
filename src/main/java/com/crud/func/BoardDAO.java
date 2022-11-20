@@ -17,7 +17,7 @@ public class BoardDAO {
 	ResultSet rs = null;
 
 	private final String BOARD_INSERT = "insert into BOARD (category,title, writer, content) values (?,?,?,?)";
-	private final String BOARD_UPDATE = "update BOARD set category=?, title=?, writer=?, content=? where seq=?";
+	private final String BOARD_UPDATE = "update BOARD set category=?, title=?, writer=?, content=? ,modifydate=CURRENT_TIMESTAMP where seq=?";
 	private final String BOARD_DELETE = "delete from BOARD  where seq=?";
 	private final String BOARD_GET = "select * from BOARD  where seq=?";
 	private final String BOARD_LIST = "select * from BOARD order by seq desc";
@@ -111,6 +111,7 @@ public class BoardDAO {
 				one.setWriter(rs.getString("writer"));
 				one.setContent(rs.getString("content"));
 				one.setRegdate(rs.getDate("regdate"));
+				one.setModifydate(rs.getDate("modifydate"));
 				one.setCnt(rs.getInt("cnt"));
 				list.add(one);
 			}

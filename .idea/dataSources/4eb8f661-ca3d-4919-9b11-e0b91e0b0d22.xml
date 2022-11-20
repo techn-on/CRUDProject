@@ -791,7 +791,7 @@ p3_22100457|schema||p3_22100457||UPDATE|G</Grants>
       <CollationName>utf8_general_ci</CollationName>
     </table>
     <column id="243" parent="239" name="seq">
-      <AutoIncrement>3</AutoIncrement>
+      <AutoIncrement>4</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -823,112 +823,118 @@ p3_22100457|schema||p3_22100457||UPDATE|G</Grants>
       <DataType>varchar(32)|0s</DataType>
       <Position>7</Position>
     </column>
-    <index id="250" parent="239" name="PRIMARY">
+    <column id="250" parent="239" name="modifydate">
+      <DataType>timestamp|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+    </column>
+    <index id="251" parent="239" name="PRIMARY">
       <ColNames>seq</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="251" parent="239" name="PRIMARY">
+    <key id="252" parent="239" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="252" parent="240" name="PersionID">
+    <column id="253" parent="240" name="PersionID">
       <AutoIncrement>11</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="253" parent="240" name="Word">
+    <column id="254" parent="240" name="Word">
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="254" parent="240" name="Level">
+    <column id="255" parent="240" name="Level">
       <DataType>varchar(10)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="255" parent="240" name="Meaning">
+    <column id="256" parent="240" name="Meaning">
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="256" parent="240" name="Regdate">
+    <column id="257" parent="240" name="Regdate">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <index id="257" parent="240" name="PRIMARY">
+    <index id="258" parent="240" name="PRIMARY">
       <ColNames>PersionID</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="258" parent="240" name="PRIMARY">
+    <key id="259" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="259" parent="241" name="id">
+    <column id="260" parent="241" name="id">
       <AutoIncrement>6</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="260" parent="241" name="username">
+    <column id="261" parent="241" name="username">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="261" parent="241" name="userpassword">
+    <column id="262" parent="241" name="userpassword">
       <DataType>varchar(100)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="262" parent="241" name="Regdate">
+    <column id="263" parent="241" name="Regdate">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="263" parent="241" name="PRIMARY">
+    <index id="264" parent="241" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="264" parent="241" name="PRIMARY">
+    <key id="265" parent="241" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="265" parent="242" name="id">
+    <column id="266" parent="242" name="id">
       <AutoIncrement>6</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="266" parent="242" name="username">
+    <column id="267" parent="242" name="username">
       <DataType>varchar(100)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="267" parent="242" name="userpassword">
+    <column id="268" parent="242" name="userpassword">
       <DataType>varchar(100)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="268" parent="242" name="phonenumber">
+    <column id="269" parent="242" name="phonenumber">
       <DataType>varchar(20)|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="269" parent="242" name="Regdate">
+    <column id="270" parent="242" name="Regdate">
       <DataType>timestamp|0s</DataType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <index id="270" parent="242" name="PRIMARY">
+    <index id="271" parent="242" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="271" parent="242" name="PRIMARY">
+    <key id="272" parent="242" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
