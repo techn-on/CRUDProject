@@ -9,12 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1679a5de-eca7-4d5d-82b3-f3dcfa4b6e8a" name="Changes" comment="Category 추가함">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4eb8f661-ca3d-4919-9b11-e0b91e0b0d22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4eb8f661-ca3d-4919-9b11-e0b91e0b0d22.xml" afterDir="false" />
+    <list default="true" id="1679a5de-eca7-4d5d-82b3-f3dcfa4b6e8a" name="Changes" comment="edit date 표시">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/func/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/func/BoardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/vo/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/vo/BoardVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/posts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/posts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fileform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fileform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/addpost.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/addpostform.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/deletepost.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/editform.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/editpost.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/posts.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +207,7 @@
       <updated>1668742708217</updated>
       <workItem from="1668742710207" duration="470000" />
       <workItem from="1668743333894" duration="21098000" />
-      <workItem from="1668859130752" duration="6201000" />
+      <workItem from="1668859130752" duration="7747000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1668921188673</created>
@@ -218,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668922154715</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="edit date 표시">
+      <created>1668923112966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668923112966</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +250,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
     <MESSAGE value="Category 추가함" />
-    <option name="LAST_COMMIT_MESSAGE" value="Category 추가함" />
+    <MESSAGE value="edit date 표시" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit date 표시" />
   </component>
 </project>
