@@ -9,17 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1679a5de-eca7-4d5d-82b3-f3dcfa4b6e8a" name="Changes" comment="edit date 표시">
+    <list default="true" id="1679a5de-eca7-4d5d-82b3-f3dcfa4b6e8a" name="Changes" comment="file upload 구현">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4eb8f661-ca3d-4919-9b11-e0b91e0b0d22.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4eb8f661-ca3d-4919-9b11-e0b91e0b0d22.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/fileform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fileform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fileupload.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/addpost.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/addpostform.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/deletepost.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/editform.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/editpost.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/webapp/posts.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/func/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/func/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/vo/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/vo/BoardVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addpost.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addpost.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addpostform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/deletepost.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/deletepost.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editpost.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editpost.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,7 @@
       <list>
         <option value="package-info" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +50,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2HhgPVX546eoVznWreXoLFfWnPm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -58,27 +61,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/admin/Desktop/CRUDProject/src/main/webapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/admin/Desktop/CRUDProject/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
@@ -207,7 +210,8 @@
       <updated>1668742708217</updated>
       <workItem from="1668742710207" duration="470000" />
       <workItem from="1668743333894" duration="21098000" />
-      <workItem from="1668859130752" duration="7747000" />
+      <workItem from="1668859130752" duration="8534000" />
+      <workItem from="1668925391160" duration="7602000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1668921188673</created>
@@ -230,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668923112966</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="file upload 구현">
+      <created>1668924726496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668924726496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +262,7 @@
     <MESSAGE value="Changes" />
     <MESSAGE value="Category 추가함" />
     <MESSAGE value="edit date 표시" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit date 표시" />
+    <MESSAGE value="file upload 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="file upload 구현" />
   </component>
 </project>

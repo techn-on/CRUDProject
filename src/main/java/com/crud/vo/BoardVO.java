@@ -12,6 +12,16 @@ public class BoardVO {
 	private Date regdate;
 	private Date modifydate;
 	private int cnt;
+	private String photo;
+
+
+	public String getPhoto() {
+		return photo;
+	}
+
+	public void setPhoto(String photo) {
+		this.photo = photo;
+	}
 
 	public int getSeq() {
 		return seq;
